@@ -3,7 +3,7 @@ GO_FILES := $(shell find . -type f -name "*.go")
 
 # Recipe to compile the main package
 build:
-	go build -o ksnap cmd/ksnap/main.go
+	go build -o _out/ksnap cmd/ksnap/main.go
 
 # Recipe to run gofmt on all Go files
 fmt:

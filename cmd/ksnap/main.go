@@ -16,7 +16,7 @@ var rootCmd = &cobra.Command{
 	Short: "A Kubernetes snapshot tool",
 	Long:  `ksnap is a CLI tool for taking snapshots of Kubernetes clusters.`,
 	Run: func(cmd *cobra.Command, args []string) {
-		fmt.Println("Hello, world!")
+		fmt.Println("Taking a snapshot of the Kubernetes cluster...")
 	},
 }
 
